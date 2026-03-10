@@ -1,0 +1,54 @@
+/* ex1 */
+#exercice1{
+    color:#2c3e50;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* ex2 */
+#exercice2 .important{
+    font-weight: bold;
+    color: #e74c3c;
+}
+#exercice2 #note{
+    font-style: italic;
+    color: #3498db;
+}
+/* ex3 */
+#exercice3 .box{
+    border: 2px solid #2980b9;
+    padding:  15px;
+    margin:  10px 0;
+    border-radius: 5px;
+}
+/* ex4 */
+#exercice4 .btn{
+    background-color: #2ecc71;
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+}
+/* ex5 */
+#exercice5 .flex-container{
+    display: flex; 
+    gap: 10px;
+}
+#exercice5 .flex-container .item {
+    background: #9b59b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex: 1; 
+}
+/* ex6 */
+.grid-container{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 15px;
+}
+.grid-item {
+    background: #e67e22;
+    padding: 30px;
+    color: white;
+}
